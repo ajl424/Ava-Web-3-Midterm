@@ -7,19 +7,188 @@
       "uuidString" : "14DDDAA4-A153-4153-96DF-97B193C74A2B"
     }
   ],
-  "creatorBuild" : "34365",
+  "creatorBuild" : "34472",
   "files" : {
-    "\/assets\/chonk.png" : {
-      "ft" : 32768,
-      "iS" : 1088557,
+    "\/assets\/1251-category-image.jpeg" : {
+      "ft" : 16384,
+      "iS" : 139045,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/chonk.png",
+      "oAP" : "\/assets\/1251-category-image.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/c8e049f512ee7f040a6d9d44a6e6cde3w-c1839650507rd-w832_h468_r4_q80.webp" : {
+      "ft" : 8388608,
+      "iS" : 129662,
+      "oA" : 0,
+      "oAP" : "\/assets\/c8e049f512ee7f040a6d9d44a6e6cde3w-c1839650507rd-w832_h468_r4_q80.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/featured-image-landscaping-contractor.jpeg" : {
+      "ft" : 16384,
+      "iS" : 99372,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/featured-image-landscaping-contractor.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/GettyImages-1092873358.webp" : {
+      "ft" : 8388608,
+      "iS" : 40458,
+      "oA" : 0,
+      "oAP" : "\/assets\/GettyImages-1092873358.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/il_fullxfull 1.png" : {
+      "ft" : 32768,
+      "iS" : 9843,
+      "oA" : 0,
+      "oAP" : "\/assets\/il_fullxfull 1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/il_fullxfull.2613601560_32oc.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/il_fullxfull.2613601560_32oc.pdf",
+      "oF" : 0
+    },
+    "\/assets\/il_fullxfull.2613601560_32oc77.png" : {
+      "ft" : 32768,
+      "iS" : 157835,
+      "oA" : 0,
+      "oAP" : "\/assets\/il_fullxfull.2613601560_32oc77.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/im-557136.jpeg" : {
+      "ft" : 16384,
+      "iS" : 241276,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/im-557136.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/maxresdefault.jpeg" : {
+      "ft" : 16384,
+      "iS" : 299252,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/maxresdefault.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/oakImage-1678809358014-superJumbo.webp" : {
+      "ft" : 8388608,
+      "iS" : 468972,
+      "oA" : 0,
+      "oAP" : "\/assets\/oakImage-1678809358014-superJumbo.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/assets\/shutterstock_639534952-1024x684.png" : {
+      "ft" : 32768,
+      "iS" : 2006315,
+      "oA" : 0,
+      "oAP" : "\/assets\/shutterstock_639534952-1024x684.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/snowdrop.jpeg" : {
+      "ft" : 16384,
+      "iS" : 139903,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/snowdrop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/The-Best-Landscaping-Companies-Option.jpeg" : {
+      "ft" : 16384,
+      "iS" : 222972,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/The-Best-Landscaping-Companies-Option.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/The-Best-Landscaping-Companies-Options.jpeg" : {
+      "ft" : 16384,
+      "iS" : 331105,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/The-Best-Landscaping-Companies-Options.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/What-To-Ask-When-Hiring-A-Commercial-Landscaping-Company-1030x705.webp" : {
+      "ft" : 8388608,
+      "iS" : 319912,
+      "oA" : 0,
+      "oAP" : "\/assets\/What-To-Ask-When-Hiring-A-Commercial-Landscaping-Company-1030x705.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/deploy\/css\/styles.css" : {
@@ -34,6 +203,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/2guysworking.jpeg" : {
+      "ft" : 16384,
+      "iS" : 331105,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/2guysworking.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/chonk.png" : {
       "ft" : 32768,
       "iS" : 1088557,
@@ -46,6 +228,222 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/facebookicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/facebookicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/flowers.webp" : {
+      "ft" : 8388608,
+      "iS" : 40458,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/flowers.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/guydigging.webp" : {
+      "ft" : 8388608,
+      "iS" : 468972,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/guydigging.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/guyraking.jpeg" : {
+      "ft" : 16384,
+      "iS" : 99372,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/guyraking.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/guytrimmingshrub.webp" : {
+      "ft" : 8388608,
+      "iS" : 319912,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/guytrimmingshrub.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/instaicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/instaicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/location-arrow-light.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/location-arrow-light.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/logo.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/logo.pdf",
+      "oF" : 0
+    },
+    "\/deploy\/img\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 343511,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/logo.png",
+      "oF" : 1,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/logonowords.png" : {
+      "ft" : 32768,
+      "iS" : 157835,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/logonowords.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/mobile-android-light.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/mobile-android-light.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/outdoorbackyard.webp" : {
+      "ft" : 8388608,
+      "iS" : 129662,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/outdoorbackyard.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/topphoto.png" : {
+      "ft" : 32768,
+      "iS" : 2006315,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/topphoto.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/treebackyard.jpeg" : {
+      "ft" : 16384,
+      "iS" : 241276,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/treebackyard.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/trimshrub.jpeg" : {
+      "ft" : 16384,
+      "iS" : 139045,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/trimshrub.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/tubeplant.jpeg" : {
+      "ft" : 16384,
+      "iS" : 222972,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/tubeplant.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/twittericon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/twittericon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/wheelbarrow.jpeg" : {
+      "ft" : 16384,
+      "iS" : 299252,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/wheelbarrow.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/youtubeicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/youtubeicon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -80,8 +478,8 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oAP" : "\/dev\/js\/scripts-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -244,8 +642,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
+      "oAP" : "\/dev\/scss\/styles.css",
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -278,7 +676,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 673791564.33405399,
-    "displayValue" : "Joe-Web-3-Template",
+    "displayValue" : "Ava-Web-3-Midterm",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-unblue",
     "iconImageWasSetByUser" : 0
@@ -797,6 +1195,10 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
+      "logical-assignment-operators" : {
+        "active" : 0,
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
+      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "{'ignoreExpressions': false, 'max': 1}"
@@ -957,6 +1359,9 @@
       "no-empty-pattern" : {
         "active" : 1
       },
+      "no-empty-static-block" : {
+        "active" : 0
+      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -988,7 +1393,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -1096,6 +1502,9 @@
       "no-new-func" : {
         "active" : 0
       },
+      "no-new-native-nonconstructor" : {
+        "active" : 0
+      },
       "no-new-object" : {
         "active" : 0
       },
@@ -1150,7 +1559,8 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -1778,6 +2188,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
@@ -1834,6 +2245,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -1908,7 +2320,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,
