@@ -326,7 +326,7 @@ template {
   width: 100%;
 }
 
-.content {
+.container {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". content .";
@@ -334,6 +334,10 @@ template {
 
 .content {
   grid-area: content;
+}
+
+body {
+  background-color: white;
 }
 
 /* =============
@@ -377,23 +381,76 @@ header .content {
 footer .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "arrow" "phone" "." "arrow2" "phone2" "." "arrow3" "phone3";
+  grid-template-areas: "content";
 }
-footer .content .arrow {
-  grid-area: arrow;
+@media (min-width: 768px) {
+  footer .content {
+    grid-template-columns: 1fr 1fr;
+  }
 }
-footer .content .phone {
-  grid-area: phone;
+
+/* =============
+    Lawncare info
+============= */
+@media (min-width: 768px) {
+  .Lawncareinfo.container {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-areas: ". content .";
+  }
 }
-footer .content .arrow2 {
-  grid-area: arrow2;
+@media (min-width: 1200px) {
+  .Lawncareinfo.container {
+    grid-template-columns: auto 900px auto;
+  }
 }
-footer .content .phone2 {
-  grid-area: phone2;
+
+/* =============
+    Tailored solutions and experts and images
+============= */
+@media (min-width: 768px) {
+  .Tailoredsolutionsandexpertsandimages.container {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-areas: ". content .";
+  }
 }
-footer .content .arrow3 {
-  grid-area: arrow3;
+@media (min-width: 1200px) {
+  .Tailoredsolutionsandexpertsandimages.container {
+    grid-template-columns: auto 750px auto;
+  }
 }
-footer .content .phone3 {
-  grid-area: phone3;
+
+/* =============
+    Typography
+============= */
+/* =============
+    landscaping articles 
+============= */
+@media (min-width: 768px) {
+  .landscapingarticles ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .landscapingarticles ul {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "p1 p2 p3" "p4 p5";
+  }
+  .landscapingarticles ul .flowers {
+    grid-area: p1;
+  }
+  .landscapingarticles ul .guydigging {
+    grid-area: p2;
+  }
+  .landscapingarticles ul .outdoorbackyard {
+    grid-area: p3;
+  }
+  .landscapingarticles ul .twoguysworking {
+    grid-area: p4;
+  }
+  .landscapingarticles ul .treebackyard {
+    grid-area: p5;
+  }
 }
