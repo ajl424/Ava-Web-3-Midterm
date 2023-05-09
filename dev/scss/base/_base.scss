@@ -12,34 +12,90 @@
      grid-template-areas:
         ". content ."
     ;
+
+    @include xl{
+        grid-template-columns: auto 1140px auto;
+    }
+
+    @include xxl{
+        grid-template-columns: auto 1320px auto;
+    }
+
+    .content{
+        grid-area:content;
+    }
+
 }
 
-
-.content{
-    grid-area:content;
+.content-spacing{
+    padding-top: 30px;
 }
+
 
 body{
     background-color: white;
 
 }
 
-@include sm{
-
+.content-spacing{
+    ul{
+        padding-top: 30px;
+    }
 }
 
-@include md{
-   
+.green-box{
+    border:1px solid #d6E6A9;
+    background-color: #D6E6A9;
+    border-radius: 2px;
+     
+    .h3,p{
+        color:#424B56 ;
+     }
+     
+
+    
 }
 
-@include lg{
-  
+button{
+    border: 1px solid white;
+    background-color: #769919;
+    color: white;
+    padding: 10px 10px;
 }
 
-@include xl{
-   
+input{
+    border: 1px solid white;
+    background-color: #F8F6E8; 
+    color: #979797;
+    padding: 10px 30px;
 }
 
-@include xxl{
-   
+.cream-background{
+    border: 1px solid #F8F6E8;
+    background-color: #F8F6E8;
+    border-radius: 2px;
+}
+
+.darkgreen-background{
+    border: 1px solid #5C790F;
+    background-color: #5C790F;
+    border-radius: 2px;
+}
+
+.beautiful-lawns-left{
+    border: 1px solid #5C790F;
+    background-color: #5C790F;
+    border-radius: 2px;
+    h1,h2,p{
+        color: #FFFFFF
+    }
+}
+
+.beautiful-lawns-right{
+    border: 1px solid #7FA619;
+    background-color: #7FA619;
+    border-radius: 2px;
+    h2,p{
+        color: #FFFFFF
+    }
 }

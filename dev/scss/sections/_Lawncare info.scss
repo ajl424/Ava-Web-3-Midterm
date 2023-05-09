@@ -8,16 +8,56 @@
 
         @include md{
             display:grid;
-            grid-template-columns: 10% auto 10%;
+            grid-template-columns: 40% auto 60%;
             grid-template-areas:
                ". content ."
            ;
        }
 
-       @include xl{
-            grid-template-columns: auto 900px auto;
+       @include lg{
+            grid-template-columns: 50% 50%;
+       }
+
+       .Lawncareinfo-content-left.container{
+            h2,p{
+                border: 1px solid #5C790F;
+                background-color: #5C790F;
+                border-radius: 2px;
+            }
+            
+            @include lg{
+                grid-template-columns: auto auto 16px;
+            }
+
+            .darkgreen-background{
+                border: 1px solid #5C790F;
+                background-color: #5C790F;
+                border-radius: 2px;
+            }
+
+           
+       }
+
+       .Lawncare-content-right.container{
+
+            @include lg{
+                grid-template-columns: 16px auto auto;
+            }
        }
     }
+
+    .about-content{
+        text-align:center;
+        p{
+            padding: 15px 10px;
+        }
+
+    }
+
+    body{
+        background-color: #5C790F ;
+    }
 }
+
 
 

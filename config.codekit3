@@ -514,6 +514,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/whitearrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/whitearrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/youtubeicon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -712,7 +722,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_landscaping articles.scss" : {
+    "\/dev\/scss\/sections\/_divider.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -721,7 +731,22 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_landscaping articles.css",
+      "oAP" : "\/dev\/scss\/sections\/_divider.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_gallery.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_gallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -742,7 +767,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_Tailored solutions and experts and images.scss" : {
+    "\/dev\/scss\/sections\/_whatsnew.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -751,22 +776,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_Tailored solutions and experts and images.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_What's new in landscaping.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_What's new in landscaping.css",
+      "oAP" : "\/dev\/scss\/sections\/_whatsnew.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

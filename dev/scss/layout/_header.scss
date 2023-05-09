@@ -4,9 +4,29 @@
 header{
 
 
-
     .content{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 15px 0px;
+
+
+        input{
+            border: 1px solid white;
+            background-color: #D6D1B3; 
+            color: #979797;
+            padding: 10px 30px;
+        }
     }
+
+    nav{
+        display:none;
+
+        @include md{
+            display:block;
+        }
+
+    
+    }
+
+
 }
