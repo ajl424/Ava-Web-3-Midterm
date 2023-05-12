@@ -362,7 +362,7 @@ body {
   background-color: #D6E6A9;
   border-radius: 2px;
 }
-.green-box .h3, .green-box p {
+.green-box h3, .green-box p {
   color: #424B56;
 }
 
@@ -400,6 +400,10 @@ input {
 .beautiful-lawns-left h1, .beautiful-lawns-left h2, .beautiful-lawns-left p {
   color: #FFFFFF;
 }
+.beautiful-lawns-left a {
+  text-decoration: none;
+  color: white;
+}
 
 .beautiful-lawns-right {
   border: 1px solid #7FA619;
@@ -408,6 +412,10 @@ input {
 }
 .beautiful-lawns-right h2, .beautiful-lawns-right p {
   color: #FFFFFF;
+}
+.beautiful-lawns-right a {
+  text-decoration: none;
+  color: white;
 }
 
 /* =============
@@ -444,12 +452,6 @@ header .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 15px 0px;
-}
-header .content input {
-  border: 1px solid white;
-  background-color: #D6D1B3;
-  color: #979797;
-  padding: 10px 30px;
 }
 header nav {
   display: none;
@@ -516,48 +518,96 @@ footer input {
 }
 
 /* =============
-    Lawncare info
+    lawncare info
 ============= */
+.lawncareinfo-content {
+  color: white;
+}
+.lawncareinfo-content a {
+  color: white;
+  text-decoration: none;
+}
+.lawncareinfo-content a img {
+  display: inline-block;
+}
 @media (min-width: 768px) {
-  .Lawncareinfo.container {
+  .lawncareinfo-content {
     display: grid;
-    grid-template-columns: 40% auto 60%;
-    grid-template-areas: ". content .";
+    grid-template-columns: 40% 60%;
   }
 }
 @media (min-width: 992px) {
-  .Lawncareinfo.container {
+  .lawncareinfo-content {
     grid-template-columns: 50% 50%;
   }
 }
-.Lawncareinfo.container .Lawncareinfo-content-left.container h2, .Lawncareinfo.container .Lawncareinfo-content-left.container p {
-  border: 1px solid #5C790F;
-  background-color: #5C790F;
-  border-radius: 2px;
+.lawncareinfo-content .container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "div link";
+}
+.lawncareinfo-content .container .content .information {
+  grid-area: div;
+}
+.lawncareinfo-content .container .content a {
+  grid-area: ink;
+  justify-self: end;
+  align-self: center;
+}
+.lawncareinfo-content .container .content a span {
+  display: none;
 }
 @media (min-width: 992px) {
-  .Lawncareinfo.container .Lawncareinfo-content-left.container {
+  .lawncareinfo-content .container .content a span {
+    display: inline-block;
+  }
+}
+.lawncareinfo-content .lawncareinfo-content-left {
+  background-color: #5C790F;
+  padding: 20px;
+}
+.lawncareinfo-content .lawncareinfo-content-left h1, .lawncareinfo-content .lawncareinfo-content-left h2, .lawncareinfo-content .lawncareinfo-content-left p {
+  color: #FFFFFF;
+}
+.lawncareinfo-content .lawncareinfo-content-left a {
+  text-decoration: none;
+  color: white;
+}
+@media (min-width: 992px) {
+  .lawncareinfo-content .lawncareinfo-content-left {
     grid-template-columns: auto auto 16px;
   }
 }
-.Lawncareinfo.container .Lawncareinfo-content-left.container .darkgreen-background {
-  border: 1px solid #5C790F;
-  background-color: #5C790F;
-  border-radius: 2px;
+.lawncareinfo-content .lawncareinfo-content-left p {
+  margin-bottom: 10px;
+}
+.lawncareinfo-content .lawncareinfo-content-left h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 @media (min-width: 992px) {
-  .Lawncareinfo.container .Lawncare-content-right.container {
+  .lawncareinfo-content .lawncareinfo-content-left h2 {
+    font-size: 24px;
+  }
+}
+.lawncareinfo-content .lawncareinfo-content-right {
+  background-color: #769919;
+  padding: 20px;
+}
+.lawncareinfo-content .lawncareinfo-content-right h2, .lawncareinfo-content .lawncareinfo-content-right p {
+  color: #FFFFFF;
+}
+.lawncareinfo-content .lawncareinfo-content-right a {
+  text-decoration: none;
+  color: white;
+}
+@media (min-width: 992px) {
+  .lawncareinfo-content .lawncareinfo-content-right {
     grid-template-columns: 16px auto auto;
   }
 }
-.Lawncareinfo .about-content {
-  text-align: center;
-}
-.Lawncareinfo .about-content p {
-  padding: 15px 10px;
-}
-.Lawncareinfo body {
-  background-color: #5C790F;
+.lawncareinfo-content .lawncareinfo-content-right p {
+  margin-bottom: 10px;
 }
 
 /* =============
@@ -575,7 +625,7 @@ footer input {
 }
 @media (min-width: 1200px) {
   .whats-new .whats-new-articles {
-    grid-template-columns: 1140px auto;
+    grid-template-columns: auto 1140px auto;
   }
 }
 @media (min-width: 1400px) {
@@ -671,6 +721,9 @@ footer input {
   .gallery ul li.img-2 {
     grid-area: g2;
   }
+}
+.gallery ul li.img-3 {
+  display: none;
 }
 @media (min-width: 1200px) {
   .gallery ul li.img-3 {

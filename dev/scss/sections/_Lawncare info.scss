@@ -1,63 +1,114 @@
 /* =============
-    Lawncare info
+    lawncare info
 ============= */
 
-.Lawncareinfo{
-    
-    &.container{
+
+
+
+    .lawncareinfo-content{
+
+        color:white;
+
+        a{
+            color: white;
+            text-decoration: none;
+
+            img{
+                display: inline-block;
+            }
+        }
 
         @include md{
-            display:grid;
-            grid-template-columns: 40% auto 60%;
-            grid-template-areas:
-               ". content ."
-           ;
-       }
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
 
-       @include lg{
+        @include lg{
             grid-template-columns: 50% 50%;
-       }
+        }
 
-       .Lawncareinfo-content-left.container{
-            h2,p{
-                border: 1px solid #5C790F;
-                background-color: #5C790F;
-                border-radius: 2px;
+        .container{
+
+            .content{
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas: 
+                "div link";
+
+                .information{
+                    grid-area: div;
+                }
+
+                a{
+                    grid-area: ink;
+                    justify-self: end;
+                    align-self: center;
+
+                    span{
+                        display: none;
+
+                        @include lg{
+                            display: inline-block;
+                        }
+                    }
+                }
             }
-            
+        }
+
+        .lawncareinfo-content-left{
+            background-color: $darkgreen;
+            padding: 20px;
+            h1,h2,p{
+                color: #FFFFFF
+            }
+        
+            a{
+                text-decoration: none;
+                color: white; 
+            }
+
             @include lg{
                 grid-template-columns: auto auto 16px;
             }
 
-            .darkgreen-background{
-                border: 1px solid #5C790F;
-                background-color: #5C790F;
-                border-radius: 2px;
+            p{
+                margin-bottom: 10px
             }
 
-           
-       }
+            h2{
+                font-size: 18px;
+                margin-bottom: 10px;
 
-       .Lawncare-content-right.container{
+                @include lg{
+                    font-size: 24px;
+                }
+            }
+        }
+        
+        .lawncareinfo-content-right{
+            background-color: $green;
+            padding: 20px;
+            h2,p{
+                color: #FFFFFF
+            }
+        
+        
+            a{
+                text-decoration: none;
+                color: white; 
+            }
 
             @include lg{
                 grid-template-columns: 16px auto auto;
             }
-       }
-    }
 
-    .about-content{
-        text-align:center;
-        p{
-            padding: 15px 10px;
+            p{
+                margin-bottom: 10px;
+            }
         }
-
     }
 
-    body{
-        background-color: #5C790F ;
-    }
-}
+
 
 
 

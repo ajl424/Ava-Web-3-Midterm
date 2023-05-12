@@ -20,7 +20,7 @@
         }
 
         @include xl{
-            grid-template-columns: 1140px auto;
+            grid-template-columns: auto 1140px auto;
         }
 
         @include xxl{
@@ -89,7 +89,7 @@
 
                button{
                 border: 1px solid white;
-                background-color: #769919;
+                background-color: $green;
                 color: white;
                 padding: 10px 30px;
                }

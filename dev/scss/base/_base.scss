@@ -48,7 +48,7 @@ body{
     background-color: #D6E6A9;
     border-radius: 2px;
      
-    .h3,p{
+    h3,p{
         color:#424B56 ;
      }
      
@@ -89,6 +89,11 @@ input{
     h1,h2,p{
         color: #FFFFFF
     }
+
+    a{
+        text-decoration: none;
+        color: white; 
+    }
 }
 
 .beautiful-lawns-right{
@@ -97,5 +102,11 @@ input{
     border-radius: 2px;
     h2,p{
         color: #FFFFFF
+    }
+
+
+    a{
+        text-decoration: none;
+        color: white; 
     }
 }

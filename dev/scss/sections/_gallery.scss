@@ -44,7 +44,7 @@
             }
 
             &.img-3{
-
+                display: none;
                 @include xl{
                     grid-area: g3;
                 

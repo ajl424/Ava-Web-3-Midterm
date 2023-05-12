@@ -9,13 +9,9 @@ header{
         grid-template-columns: 1fr 1fr;
         padding: 15px 0px;
 
+        
+       
 
-        input{
-            border: 1px solid white;
-            background-color: #D6D1B3; 
-            color: #979797;
-            padding: 10px 30px;
-        }
     }
 
     nav{
@@ -24,9 +20,12 @@ header{
         @include md{
             display:block;
         }
-
     
     }
+
+    
+    
+
 
 
 }
