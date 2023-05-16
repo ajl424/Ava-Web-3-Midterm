@@ -12,12 +12,12 @@
             display: flex;
 
             input{
-                color: $light-grey; 
+                color: #979797; 
                 font-size: 16px;
                 width: 100%;
 
                 border: none;
-                border-bottom: 2px solid $light-grey;
+                border-bottom: 2px solid #979797;
 
                 background-color:  #F8F6E8; 
 
@@ -32,7 +32,7 @@
             }
 
             ::placeholder{ /*Chrome, Firefox, Opera, Safari 10.1+ */
-                color: $light-grey;
+                color: #979797;
                 opacity: 0.5;
             }
 
@@ -50,7 +50,7 @@
                 img{
                     width: 25px;
 
-                    @include nd{
+                    @include md{
                         width: 30px; 
                     }
 

@@ -324,6 +324,7 @@ template {
 ============= */
 .large-images {
   width: 100%;
+  display: block;
 }
 
 .container {
@@ -372,6 +373,11 @@ button {
   color: white;
   padding: 10px 10px;
 }
+button:hover {
+  background-color: #5C790F;
+  text-decoration: underline;
+  transition: 0.5s;
+}
 
 input {
   border: 1px solid white;
@@ -395,7 +401,7 @@ input {
 .beautiful-lawns-left {
   border: 1px solid #5C790F;
   background-color: #5C790F;
-  border-radius: 2px;
+  padding: 10px;
 }
 .beautiful-lawns-left h1, .beautiful-lawns-left h2, .beautiful-lawns-left p {
   color: #FFFFFF;
@@ -421,6 +427,34 @@ input {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 200;
+}
+
+input {
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 500;
+}
+
 /* =============
     Buttons
 ============= */
@@ -461,12 +495,20 @@ header nav {
     display: block;
   }
 }
+header .logo-container {
+  align-items: center;
+  padding: 0;
+}
+header img {
+  padding: 10px;
+}
 
 /* =============
     Footer
 ============= */
 footer {
-  padding-bottom: 60px;
+  background-color: #F8F6E8;
+  padding-top: 20px;
 }
 footer li {
   list-style: none;
@@ -476,6 +518,7 @@ footer li {
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-areas: "locations newsletter" "locations follow";
+    gap: 20px;
   }
 }
 @media (min-width: 992px) {
@@ -484,37 +527,99 @@ footer li {
     grid-template-areas: "locations newsletter follow";
   }
 }
+footer .content h4 {
+  font-size: 20px;
+  color: #454545;
+}
+footer .content .locations .follow ul {
+  list-style: none;
+  padding: 0;
+}
+footer .content .locations .follow ul img {
+  padding-right: 10px;
+}
+footer .content .locations .follow ul h5 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+footer .content .locations .follow ul p {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+footer .content .locations .follow ul p span {
+  display: inline-block;
+}
+footer .content .locations .follow ul a {
+  color: #454545;
+}
+footer .content .locations .follow ul .border-bottom {
+  border-bottom: 2px solid #D6D1B3;
+  margin: 25px 0 25px 0;
+}
 @media (min-width: 768px) {
   footer .content .locations {
     grid-area: locations;
   }
+}
+footer .content .locations ul li {
+  color: #454545;
 }
 @media (min-width: 768px) {
   footer .content .newsletter {
     grid-area: newsletter;
   }
 }
+footer .content .newsletter form {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: end;
+}
+footer .content .newsletter form input {
+  width: 100%;
+  background-color: #D6E6A9;
+  color: #454545;
+  padding: 15px 10px 15px 10px;
+  margin: 20px 0 20px 0;
+}
+footer .content .newsletter form ::placeholder { /*Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #454545;
+  opacity: 1;
+}
+footer .content .newsletter form ::-ms-input-placeholder { /* Microsoft.Edge */
+  color: #454545;
+}
+footer .content .newsletter form button {
+  color: white;
+  background-color: #769919;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
 @media (min-width: 768px) {
   footer .content .follow {
     grid-area: follow;
   }
 }
-footer button {
-  border: 1px solid white;
-  background-color: #769919;
-  color: white;
-  padding: 10px 30px;
+@media (min-width: 992px) {
+  footer .content .follow {
+    text-align: right;
+  }
 }
-footer input {
-  border: 1px solid white;
-  background-color: #D6E6A9;
-  color: #454545;
-  padding: 10px 30px;
+footer .content .follow ul li {
+  display: inline-block;
 }
-
-.footer-content {
-  background-color: #F8F6E8;
-  color: #454545;
+footer .content .follow ul li a {
+  color: #fff;
+}
+footer .content .follow ul li a i {
+  font-size: 30px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  footer .content .follow ul li.last-of-type a i {
+    padding-right: 0;
+  }
 }
 
 /* =============
@@ -613,8 +718,33 @@ footer input {
 /* =============
     Typography
 ============= */
-.whats-new .whats-new-articles li {
-  list-style: none;
+.whats-new {
+  margin: 0 0 20px 0;
+}
+@media (min-width: 768px) {
+  .whats-new {
+    margin: 30px 0 40px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .whats-new {
+    margin: 50px 0 60px 0;
+  }
+}
+.whats-new .whats-new-title h2 {
+  font-size: 20px;
+  color: #979797;
+  padding: 10px 0 10px 0;
+}
+@media (min-width: 992px) {
+  .whats-new .whats-new-title h2 {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .whats-new .whats-new-title h2 {
+    font-size: 40px;
+  }
 }
 @media (min-width: 768px) {
   .whats-new .whats-new-articles {
@@ -633,6 +763,13 @@ footer input {
     grid-template-columns: auto 1320px auto;
   }
 }
+.whats-new .whats-new-articles ul.article-grid {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 15px;
+}
 @media (min-width: 768px) {
   .whats-new .whats-new-articles ul.article-grid {
     grid-area: articles;
@@ -647,13 +784,33 @@ footer input {
     grid-template-areas: "a1 a1 a2 a2 a3 a3" ". a4 a4 a5 a5 .";
   }
 }
-.whats-new .whats-new-articles ul.article-grid li {
-  padding: 10px;
+.whats-new .whats-new-articles ul.article-grid li .container {
+  padding: 15px 0 35px 0;
 }
 @media (min-width: 1200px) {
   .whats-new .whats-new-articles ul.article-grid li .container {
     grid-template-columns: 15px auto 15px;
   }
+}
+.whats-new .whats-new-articles ul.article-grid li .container h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.whats-new .whats-new-articles ul.article-grid li .container p {
+  padding-bottom: 25px;
+}
+.whats-new .whats-new-articles ul.article-grid li .container a {
+  color: white;
+  background-color: #F8F6E8;
+  padding: 10px 20px 10 px 20px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.5s;
+}
+.whats-new .whats-new-articles ul.article-grid li .container a:hover {
+  background-color: #5C790F;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 @media (min-width: 768px) {
   .whats-new .whats-new-articles ul.article-grid li.article-1 {
@@ -680,18 +837,12 @@ footer input {
     grid-area: a5;
   }
 }
-.whats-new .whats-new-articles ul.article-grid li button {
-  border: 1px solid white;
-  background-color: #769919;
-  color: white;
-  padding: 10px 30px;
-}
 
 /* =============
     Typography
 ============= */
 .gallery ul {
-  padding-left: 0;
+  padding: 0;
 }
 .gallery ul li {
   list-style: none;
@@ -712,10 +863,17 @@ footer input {
     grid-template-areas: "g1 g2" "g1 g3";
   }
 }
+.gallery ul li.img-1 {
+  background-image: url("../img/guytrimmingshrub.webp");
+  background-size: cover;
+}
 @media (min-width: 1200px) {
   .gallery ul li.img-1 {
     grid-area: g1;
   }
+}
+.gallery ul li.img-1 img {
+  display: none;
 }
 @media (min-width: 1200px) {
   .gallery ul li.img-2 {
@@ -727,6 +885,7 @@ footer input {
 }
 @media (min-width: 1200px) {
   .gallery ul li.img-3 {
+    display: block;
     grid-area: g3;
   }
 }
@@ -734,6 +893,14 @@ footer input {
 /* =============
     Typography
 ============= */
+.divider {
+  margin: 15px 0 0 0;
+}
+@media (min-width: 768px) {
+  .divider {
+    margin: 30px 0 30px 0;
+  }
+}
 @media (min-width: 768px) {
   .divider {
     display: grid;
@@ -756,9 +923,13 @@ footer input {
     grid-template-columns: 16px auto 16px;
   }
 }
+.divider .container.box-1 {
+  margin-bottom: 15px;
+}
 @media (min-width: 768px) {
   .divider .container.box-1 {
     grid-area: box-1;
+    margin-bottom: 0;
   }
 }
 .divider .container.box-1 button {
@@ -766,6 +937,13 @@ footer input {
   background-color: #769919;
   color: white;
   padding: 10px 10px;
+  transition: 0.5s;
+  width: 150px;
+}
+.divider .container.box-1 button:hover {
+  background-color: #5C790F;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 @media (min-width: 768px) {
   .divider .container.box-2 {
@@ -777,18 +955,97 @@ footer input {
   background-color: #769919;
   color: white;
   padding: 10px 10px;
+  transition: 0.5s;
+  width: 150px;
+}
+.divider .container.box-2 button:hover {
+  background-color: #5C790F;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 .divider .container .content {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "h2 img" "a img";
+  background-color: #F8F6E8;
+  color: #454545;
+  padding: 20px;
 }
 .divider .container .content h2 {
   grid-area: h2;
+  align-self: center;
+  font-size: 27px;
+}
+@media (min-width: 768px) {
+  .divider .container .content h2 {
+    font-size: 28px;
+  }
 }
 .divider .container .content a {
   grid-area: a;
+  align-self: end;
+  color: #454545;
+  background-color: #769919;
+  padding: 10px;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
 }
 .divider .container .content img {
   grid-area: img;
+  justify-self: end;
+  border-radius: 50%;
+  height: 150px;
+}
+
+/* =============
+    search
+============= */
+.search {
+  margin: 25px 0 25px 0;
+}
+.search .content form {
+  display: flex;
+}
+.search .content form input {
+  color: #979797;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #979797;
+  background-color: #F8F6E8;
+}
+@media (min-width: 768px) {
+  .search .content form input {
+    font-size: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .search .content form input {
+    font-size: 35px;
+  }
+}
+.search .content form ::placeholder { /*Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #979797;
+  opacity: 0.5;
+}
+.search .content form button {
+  background-color: #769919;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 7.5px 12.5px 7.5px 12.5px;
+}
+@media (min-width: 768px) {
+  .search .content form button {
+    padding: 10px 15px 10px 15px;
+  }
+}
+.search .content form button img {
+  width: 25px;
+}
+@media (min-width: 768px) {
+  .search .content form button img {
+    width: 30px;
+  }
 }

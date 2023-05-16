@@ -4,6 +4,7 @@
 
 .large-images{
     width:100%;
+    display: block;
 }
 
 .container{
@@ -61,6 +62,12 @@ button{
     background-color: #769919;
     color: white;
     padding: 10px 10px;
+
+    &:hover{
+        background-color:  #5C790F;
+           text-decoration: underline;
+           transition: 0.5s;
+   }
 }
 
 input{
@@ -85,7 +92,7 @@ input{
 .beautiful-lawns-left{
     border: 1px solid #5C790F;
     background-color: #5C790F;
-    border-radius: 2px;
+    padding: 10px;
     h1,h2,p{
         color: #FFFFFF
     }
@@ -110,3 +117,6 @@ input{
         color: white; 
     }
 }
+
+
+
